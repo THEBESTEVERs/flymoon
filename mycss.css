@@ -1,0 +1,70 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.w1{
+   width: 100vw;
+}
+
+.w2{
+   width: 100%;
+}
+
+/* flex */
+.f1{
+   display: flex;
+   align-items: center;
+}
+.f2{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+/* list */
+.l1{
+   list-style: none;
+}
+.l1 a{
+   text-decoration: none;
+   color: white;
+}
+
+
+/*object fit */
+.ibox img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/**/
+.g1{
+   display: grid;
+    align-items: center;
+ justify-content: center;
+}
+
+
+
+/*scale when hover*/
+.scale12:hover{
+   transform: scale(1.1);
+}
+/*rotate*/
+.r1:hover{
+   rotate: 10deg;
+}
+/*overflow hidden*/
+.o1{
+   overflow: hidden;
+}
+/*hover color */
+.col1 a:hover{
+   color: #05B0F3;
+}
+.col2:hover{
+   color: #05B0F3;
+}
