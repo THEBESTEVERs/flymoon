@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+body{
+   font-family: Arial, sans-serif;
+}
+
 .w1{
    width: 100vw;
 }

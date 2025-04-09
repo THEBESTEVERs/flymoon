@@ -253,6 +253,11 @@ tr:nth-child(even) {
    /**/
    .detail{
       padding: 20px 10px;
+      font-size: 12px;
+   }
+   .accordion{
+      font-size: 14px;
+      padding: 10px 16px;
    }
    /**/
    .yt-vid{
@@ -265,6 +270,7 @@ tr:nth-child(even) {
    .feedback-box{
       padding: 10px;
    }
+   .feedback-box h2{ font-size: 16px;}
    
    /*footer*/
    .foot{
@@ -283,8 +289,95 @@ tr:nth-child(even) {
    }
 }
 
+/*///////*/
+@media (min-width : 501px) and (max-width: 1010px){
+      .head{
+      height: 55px;
+      width: 100vw;
+      padding: 10px;
+      background: #000;
+      z-index: 1000;
+   }
+   .menu-con{
+      position: absolute;
+      top: 0;
+      left: -100vw;
+      width: 100vw;
+      display: flex;
+      height: 100vh;
+      z-index: 90;
+      padding: 55px 0 0 0;
+   }
+   .show{
+      top: 0;
+      left: 0;
+   }
+   .menu-con nav{
+      flex: 0 0 75%;
+      background: #013347;
+      padding: 20px 0 0 25px;
+   }
+   .menu-con nav ul li{
+      font-weight: 400;
+      font-size: 20px;
+      margin: 10px 0;
+   }
+   .closs-box{
+      flex: 0 0 25%;
+      height: 100%;
+   }
+   .container {
+   height: 30vh;
+   margin-top: 70px;
+   padding: 15px 10%;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   }
+   .cont2{
+      padding: 15% 0 16% 15px;
+      font-size: 10px;
+   }
+   .cont2 button{
+       border: 3px solid #3481FF;
+       padding: 7px 12px;
+       font-size: 16px;
+   }
+    /*galary*/
+    .galary{
+      gap: 0.5%;
+      padding: 1% 10%;
+   }
+   .galary div {
+   flex: 0 0 24%;
+   height: 100%;
+   }
+   .detail{
+      padding: 20px 10%;
+   }
+   /*yt-vid*/
+   .yt-vid{
+       margin-top: 0;
+       height: 40vh;
+   }
+    /*feedbaxk box*/
+ .feedback-box {
+    padding: 40px 10%;
+ }
+   /*footer*/
+  .foot {
+     margin-top: 0;
+     height: auto;
+     padding: 30px 10%;
+     gap: 0;
+  }
+  
+  .footBox {
+     padding: 20px 10px;
+  }
+}
+
 /*///////////////////////////////////////////////////////////////*/
-@media (min-width : 501px) and (max-width: 1400px) {
+@media (min-width : 1011px) {
    .menu-btn{
       display: none;
    }
