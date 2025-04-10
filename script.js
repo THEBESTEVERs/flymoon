@@ -1,3 +1,4 @@
+/*menu open close function*/
  function openMenu() {
     document.querySelector('.menu-con').classList.add('show');
  }
@@ -42,13 +43,13 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-/**/
+/* add link in buy btn*/
 let buy = document.querySelector('.buy')
 buy.onclick = function(){
    window.location.href = 'https://amzn.in/d/8GHZbUH'
 }
 
-/**/
+/* for icons*/
  document.querySelectorAll('.s-link').forEach(function(button) {
     button.onclick = function() {
        window.location.href = 'https://www.instagram.com/aman%20_kr87/?igsh=b2hkZTM2MDJveTFw#';
