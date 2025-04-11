@@ -111,6 +111,15 @@
       
       <h2>feedback and contact us</h2>
       <form target="_blank" action="https://formsubmit.co/amankrgupta1219@gmail.com" method="POST">
+         <!--honeypot-->
+         <input type="text" name="_honey" style="display: none;" >
+         
+         <!--disable captcha-->
+         <input type="hidden" name="_captcha" value="false">
+         
+         <!--sucssesfully  submited page-->
+         <input type="hidden" name="_next" value="/webV5/thank.html">
+         
          <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Full Name" required />
