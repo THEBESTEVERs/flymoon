@@ -5,21 +5,122 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>form submited</title>
+   <link rel="stylesheet" href="mycss.css">
    <style>
-      .thanks{
-         width: 100%;
-         height: 20vh;
-         border: 2px solid darkgreen;
-         background: seagreen;
-         color: darkgreen;
-         padding: 10px 20px;
+   body{background: #112B45; color: white;}
+      header{
+         height:30px;
+         padding: 0  0 0 10px;
+         background: #001E3C ;
+      }
+      .container {
+         border: 2px solid #4CA7FF;
+         border-radius: 10px;
+         box-shadow: 0 0 5px #0081FF;
+         background: #001E3C;
+      }
+      .mes{
+         width: 80vw;
+         padding: 10px;
+         display: grid;
+         margin: 60px auto;
+      }
+      .mes-box{
+         width:100%;
+         text-align: center;
+         padding: 10px 0;
+      }
+      .ibox{
+         padding: 5px 15px 5px 5px;
+         border: none;
+         border-radius: 50%;
+         background: #00284D;
+         height:50vw;
+         width:50vw;
+         margin: auto;
+      }
+      button{
+         padding: 6px 10px ;
+         border: none;
+         background:#2AFF91;
+         margin-top: 14px;
+         border-radius: 5px;
+      }
+      .great{
+         color: #26537C;
+         font-size: 22px;
+         display: grid;
+         justify-content: center;
+      }
+      
+      @media (min-width : 760px){
+         header{
+            padding: 0 10vw;
+            height:45px;
+            font-size: 18px;
+         }
+         .mes {
+            width: 70vw;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 40% 60%;
+            margin: 20px auto;
+         }
+         .mes-box{
+         text-align: center;
+         padding: 10px 0;
+         margin: auto;
+      }
+      .ibox{
+         padding:10px 20px 10px 10px;
+         border: none;
+         border-radius: 50%;
+         background: #00284D;
+         height:25vw;
+         width:25vw;
+         margin: auto;
+      }
+      .sended{
+         padding: 10px;
+      }
+       button{
+         padding: 10px 15px ;
+         border: none;
+         background:#2AFF91;
+         margin-top: 20px;
+         border-radius: 5px;
+         font-size: 18px;
+      }
+      .great{
+         color: #26537C;
+         font-size: 30px;
+         display: grid;
+         justify-content: center;
+      }
       }
    </style>
 </head>
 <body>
    
-   <div class="thanks">
-      <H1> :) thanks you for contect us , we will reaching you soon</H1>
+   <header class="w1 f1">
+      <h4>FLYMOON</h4>
+   </header>
+   
+   
+   <div class="mes container" >
+      <div class="mes-box">
+         <div class="ibox">
+            <img src="giphy.gif" alt="">
+         </div>
+      </div>
+      <div class="mes-box sended">
+         <h3>The form was submitted successfully. Return to original site:</h3>
+         <a href="/webV5/index.html"><button class="scale12" type="submit">Go back >></button></a>
+      </div>
+   </div>
+   
+   <div class="great w1">
+      <h1 class="">THANKS FOR <br> CONTACT US</h1>
    </div>
    
 </body>

@@ -209,10 +209,11 @@ tr:nth-child(even) {
       height: 100vh;
       z-index: 90;
       padding: 55px 0 0 0;
+      transition: all 0.3s ease-in-out;
    }
    .show{
-      top: 0;
       left: 0;
+      transform: translateX(0);
    }
    .menu-con nav{
       flex: 0 0 75%;
