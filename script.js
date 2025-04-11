@@ -52,6 +52,6 @@ buy.onclick = function(){
 /* for icons*/
  document.querySelectorAll('.s-link').forEach(function(button) {
     button.onclick = function() {
-       window.location.href = 'https://www.instagram.com/aman%20_kr87/?igsh=b2hkZTM2MDJveTFw#';
+       window.location.href = 'https://www.instagram.com/aman_kr87?utm_source=qr&igsh=b2hkZTM2MDJveTFw';
     };
  });
